@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === 'None') {
+  if (license !== 'None') {
     return ` [![License: MIT](https://img.shields.io/badge/License-${license}-yellow.svg)`;
   }
     return '';
@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === 'None') {
+  if (license !== 'None') {
     return `* [License](#license)`;
   }
     return '';
@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === 'None') {
+  if (license !== 'None') {
     return `* [License](#license)`;
   }
     return '';
@@ -33,8 +33,6 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
 
-
-
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -42,7 +40,7 @@ function generateMarkdown(data) {
   - [Contribution](#contribution)
   - [Testing](#testing)
   ${renderLicenseLink(data.license)}
-  * [Questions](#questions)
+  - [Questions](#questions)
 
   ## Description
   ${data.description}
