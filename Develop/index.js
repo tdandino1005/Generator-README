@@ -16,38 +16,38 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installationInstructions',
+        name: 'installation',
         message: 'How do you install the project',
     },
     {
-        name: 'usageInformation',
         type: 'input',
-        message: 'How is your application used?',
+        name: 'usage',
+        message: 'How is the application used?',
     },
     {
-        name: 'contributionGuidelines',
         type: 'input',
+        name: 'contrubuting',
         message: 'What are the guidelines for contributing?',
     },
     {
-        name: 'testInstructions',
         type: 'input',
-        message: 'Please enter any necessary information for testing.',
+        name: 'instruction',
+        message: 'Please enter instructions for testing.',
     },
     {
-        name: 'license',
         type: 'list',
-        message: 'Please select the appropriate license.',
+        name: 'license',
+        message: 'Please select the correct license.',
         choices: ['MIT', 'Apache2.0', 'GPL3.0', 'BSD3', 'None'],
     },
     {
-        name: 'gitHubUserName',
         type: 'input',
+        name: 'gitHubUser',
         message: 'Please enter your GitHub UserName',
     },
     {
-        name: 'emailAddress',
         type: 'input',
+        name: 'email',
         message: 'Please enter your email address',
     }
 ];
