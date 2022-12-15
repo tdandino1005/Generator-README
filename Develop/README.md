@@ -15,19 +15,19 @@
   - [Additional Information](#additional-info)
 
   ## Description
-  A README generator from the command line
+  This is a README generator from entering information in the command line
 
   ## Installation 
-  clone repo, install inquirer, run index.js
+  Clone repo, install inquirer, run index.js, run node index.js
 
   ## Usage Information
-  To generate a professional looking README file through the terminal
+  It is an application that takes basic information about the user's project as an input and generates a READMEfile
 
   ## Contribution
-  Please see github for making a contributing file
+  Go to contribute page on Github and add a contributing file.
 
   ## Testing
-  Open terminal, run node index.js, answer questions
+  Answer the questions in the terminal and see if the information will create a README file
 
 
   ## Additional Information:
