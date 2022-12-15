@@ -1,4 +1,4 @@
-# Tony's project
+# Generator Read Me
   
 
   ## Table of Contents
@@ -13,7 +13,7 @@
   undefined
 
   ## Installation 
-  No
+  through VS code
 
   ## Usage Information
   undefined
@@ -27,4 +27,4 @@
 
   ## Additional Information:
   Email: undefined
-  Githum: [undefined](https://github.com/undefined)
+  Github: [undefined](https://github.com/undefined)
