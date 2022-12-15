@@ -1,5 +1,10 @@
-# Generator Read Me
+# Generator READ ME
   
+
+  ## Licensing: 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+
 
   ## Table of Contents
   - [Description](#description)
@@ -10,21 +15,21 @@
   - [Additional Information](#additional-info)
 
   ## Description
-  undefined
+  a project that saves the information and trasitions it to read me file
 
   ## Installation 
-  through VS code
+  vs code and terminal
 
   ## Usage Information
-  undefined
+  once you answer questions
 
   ## Contribution
   undefined
 
   ## Testing
-  undefined
+  answer questions
 
 
   ## Additional Information:
-  Email: undefined
-  Github: [undefined](https://github.com/undefined)
+  Email: tdandino1005@gmail.com
+  Github: [tdandino](https://github.com/tdandino)
