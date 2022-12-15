@@ -48,18 +48,18 @@ function generateMarkdown(data) {
   ${data.installation}
 
   ## Usage Information
-  ${data.usageInformation}
+  ${data.usage}
 
   ## Contribution
-  ${data.contribution}
+  ${data.contributing}
 
   ## Testing
   ${data.testing}
 
 
   ## Additional Information:
-  Email: ${data.emailAddress}
-  Github: [${data.gitHubUserName}](https://github.com/${data.gitHubUserName})`;
+  Email: ${data.email}
+  Github: [${data.gitHubUser}](https://github.com/${data.gitHubUser})`;
 }
 
 module.exports = generateMarkdown;
