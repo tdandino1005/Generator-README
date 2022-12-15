@@ -2,7 +2,7 @@
 const inquirer = require("inquirer")
 const fs = require("fs")
 const generateMarkdown = require('./utils/generateMarkdown.js');
-const path = require('path');
+
 
 
 // TODO: Create an array of questions for user input
@@ -10,7 +10,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Please enter your project title',
+        message: 'What is your project title?',
     },
     {
         type: 'input',
@@ -20,7 +20,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'How do you install the project?',
+        message: 'What are the steps to install the project?',
     },
     {
         type: 'input',
@@ -29,8 +29,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contrubuting',
-        message: 'What are the guidelines for contributing?',
+        name: 'contributing',
+        message: 'What are the guidelines for making contributions?',
     },
     {
         type: 'input',
@@ -40,7 +40,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Please select the correct license.',
+        message: 'Select the correct license:',
         choices: ['MIT', 'Apache', 'Mozilla', 'GNU', 'None'],
     },
     {
@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err)
             throw err;
-        console.log('Information has been added to the README!')
+        console.log('Information has now been added to the README!')
     });
 };
 // TODO: Create a function to initialize app

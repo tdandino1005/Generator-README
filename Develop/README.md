@@ -1,4 +1,4 @@
-# Generator READ ME
+# Generator README
   
 
   ## Licensing: 
@@ -15,21 +15,21 @@
   - [Additional Information](#additional-info)
 
   ## Description
-  a project that saves the information and trasitions it to read me file
+  A README generator from the command line
 
   ## Installation 
-  vs code and terminal
+  clone repo, install inquirer, run index.js
 
   ## Usage Information
-  once you answer questions
+  To generate a professional looking README file through the terminal
 
   ## Contribution
-  undefined
+  Please see github for making a contributing file
 
   ## Testing
-  answer questions
+  Open terminal, run node index.js, answer questions
 
 
   ## Additional Information:
   Email: tdandino1005@gmail.com
-  Github: [tdandino](https://github.com/tdandino)
+  Github: [tdandino1005](https://github.com/tdandino1005)
